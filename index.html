@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Uken Games Programming Challenge</title>
+    <link type='text/css' rel='stylesheet' href='style.css'>
+    <script type='text/javascript' src='jquery-1.9.1.js'></script>
+    <script type='text/javascript' src='models.js'></script>
+    <script type='text/javascript' src='search.js'></script>
+    <script type='text/javascript' src='main.js'></script>
+  </head>
+
+  <body>
+    <div id='game'>
+      <div id='gameArea'>
+        <div id='timer'>
+          <div id='timerProgressBar'></div>
+        </div>
+        <div >
+          <div id='gameboard' class='shadow'></div>
+        </div>
+      </div>
+
+      <div id='rightColumn'>
+        <div id='scoreboard' class='shadow'>
+          <div id='scoreboardHeader'>
+            Scoreboard
+          </div>
+          <div id='scoreboardBody'>
+            <div class='label'>Level</div> 
+            <div id='level' class='value'></div>
+            <hr>
+
+            <div class='label'>Current Score</div> 
+            <div id='currentScore' class='value'></div>
+            <hr>
+
+            <div class='label'>Total Score</div> 
+            <div id='totalScore' class='value'></div>
+            <hr>
+          </div>
+        </div>
+      </div>
+
+      <div id='buttons'>
+        <button id='addTimeBtn' class='shadow' >
+          <div> Add Time </div>
+            <div id='addTimeItems'></div>
+        </button>
+        <button id='startEndBtn' class='shadow startEndBtn'>Start!</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
